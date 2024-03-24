@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        .foodbox {
+            width: 250px;
+        }
+        .columnFlex {
+            display: flex;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        header {
+            text-align: center;
+            font-size: xx-large;
+            margin: 50px;
+            margin-left: 400px;
+            margin-right: 400px;
+            border: 1px solid black;
+            background-color: coral;
+        }
+
+        @media screen and (max-width: 1200px) {
+            header {
+                font-size: x-large;
+                margin-left: 300px;
+                margin-right: 300px;
+            }
+        }
+        @media screen and (max-width: 900px) {
+            header {
+                font-size: large;
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            header {
+                font-size: medium;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Five Course Meal</header>
+    <div class="container" style="border: 2px solid black">
+        <div class="row" style="padding:10px;">
+            <div class="col-12 col-xl-7 col-lg-6 col-md-12 col-sm-12 columnFlex" style="background-color: bisque;">
+                <div class="foodbox">
+                    <h3>Baked Chicken</h3>
+                    <h5>Ingredients</h5>
+                    <ul>
+                        <li>Chicken breasts</li>
+                        <li>Melted butter</li>
+                        <li>Salt</li>
+                        <li>Black pepper</li>
+                        <li>Garlic powder</li>
+                        <li>Smoked paprika</li>
+                    </ul>
+                </div>
+                <div class="foodbox">
+                    <img src="chicken.jpg" style="width:200px; height:200px; margin:15px;">
+                </div>
+            </div>
+            <div class="col-12 col-xl-5 col-lg-6 col-md-12 col-sm-12 columnFlex" style="background-color: aquamarine;">
+                <div class="foodbox">
+                    <h3>Mashed Potatoes</h3>
+                    <h5>Ingredients</h5>
+                    <ul>
+                        <li>Potatoes</li>
+                        <li>Garlic cloves</li>
+                        <li>Salt</li>
+                        <li>Butter</li>
+                        <li>Milk</li>
+                        <li>Cream cheese</li>
+                        <li>Chives</li>
+                        <li>Black pepper</li>
+                    </ul>
+                </div>
+                <div class="foodbox">
+                    <img src="potatoes.jpg" style="width:200px; height:200px; margin:15px;">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding:10px;">
+            <div class="col-12 col-lg-4 col-xl-4 col-xxl-5 col-md-12 col-sm-12 columnFlex" style="background-color: aliceblue;">
+                <div class="foodbox">
+                    <h4>Green Beans</h4>
+                    <h6>Ingredients</h6>
+                    <ul>
+                        <li>Green beans</li>
+                        <li>Salt</li>
+                        <li>Olive oil</li>
+                        <li>Garlic cloves</li>
+                        <li>Black pepper</li>
+                    </ul>
+                </div>
+                <div class="foodbox">
+                    <img src="greenbeans.jpg" style="width:150px; height:150px; margin:15px;">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-12 col-sm-12 columnFlex" style="background-color:lightpink">
+                <div class="foodbox">
+                    <h4>Rolls</h4>
+                    <h6>Ingredients</h6>
+                    <ul>
+                        <li>Milk</li>
+                        <li>Instant yeast</li>
+                        <li>Granulated sugar</li>
+                        <li>Egg</li>
+                        <li>Butter</li>
+                        <li>Salt</li>
+                        <li>Flour</li>
+                    </ul>
+                </div>
+                <div class="foodbox">
+                    <img src="rolls.jpg" style="width:150px; height:150px; margin:15px;">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-xl-4 col-xxl-3 col-md-12 col-sm-12 columnFlex" style="background-color:plum">
+                <div class="foodbox">
+                    <h4>Lemonade</h4>
+                    <h6>Ingredients</h6>
+                    <ul>
+                        <li>Lemons</li>
+                        <li>Sugar</li>
+                        <li>Water</li>
+                    </ul>
+                </div>
+                <div class="foodbox">
+                    <img src="lemonade.jpg" style="width:150px; height:150px; margin:15px;">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
